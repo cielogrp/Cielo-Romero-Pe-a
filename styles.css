@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f5f7;
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  background: #1c1c1e;
+  color: #f0f0f0;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  z-index: 10;
+}
+
+.dark .navbar {
+  background: rgba(40,40,40,0.6);
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.navbar a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #555;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  color: #7b4db7;
+}
+
+.dark .navbar a {
+  color: #ddd;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  margin-top: 130px;
+  padding: 70px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.quote {
+  margin-top: 15px;
+  color: #7b4db7;
+  font-style: italic;
+}
+
+/* SECTIONS */
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+section {
+  margin-bottom: 55px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.dark h2 {
+  color: #caa7ff;
+}
+
+ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
