@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cielo Geraldine Romero Peña — Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="accent-blob" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="brand">
+      <div class="logo">C</div>
+      <div class="brand-text">
+        <div class="name" id="brandName">Cielo Geraldine Romero Peña</div>
+        <div class="subtitle" data-i18n="brand.subtitle">Estudiante de Administración</div>
+      </div>
+    </div>
+
+    <nav class="main-nav" role="navigation" aria-label="Menú principal">
+      <ul class="nav-list" id="navList">
+        <li><a href="#inicio" class="nav-link active" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="#perfil" class="nav-link" data-i18n="nav.profile">Perfil</a></li>
+        <li><a href="#educacion" class="nav-link" data-i18n="nav.education">Educación</a></li>
+        <li><a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <div class="controls">
+        <button id="btnTheme" class="icon-btn" title="Tema">🌙</button>
+        <button id="btnLang" class="icon-btn" title="Idioma">EN</button>
+        <a id="downloadBtn" class="download-btn" href="Diseño sin título.pdf" download="Cielo_Romero_Informacion.pdf" data-i18n="download">Descargar información</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <aside class="profile-card" aria-label="Tarjeta de perfil">
+      <div class="avatar" aria-hidden="false"><span class="initials">CR</span></div>
+      <h2 class="pc-name">Cielo Geraldine Romero Peña </h2>
+      <p class="pc-role" data-i18n="roleShort">Estudiante de Administración — Marketing</p>
+
+      <div class="pc-info">
+        <div><strong data-i18n="age">Edad</strong><div class="muted">18</div></div>
+        <div><strong data-i18n="birth">Fecha de nacimiento</strong><div class="muted">20/03/2007</div></div>
+        <div><strong data-i18n="location">Nacionalidad</strong><div class="muted">Peruana · Cusco</div></div>
+      </div>
+
+      <div class="pc-socials">
+        <a href="https://www.linkedin.com/in/cielo-geraldine-89a196387" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/Cielo-romero" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:cielo.romero@ucsp.edu.pe">Email</a>
+      </div>
+    </aside>
+
+    <section class="content">
+      <article id="inicio" class="card" aria-labelledby="inicioTitle">
+        <h1 id="inicioTitle" class="hero-title" data-i18n="greeting">¡Hola! Soy Cielo </h1>
+        <p class="lead" data-i18n="intro">Tengo 18 años y soy de Cusco. Estudio Administración en la Universidad Católica San Pablo. Soy creativa, adaptable y empática. Me apasionan el arte, el teatro, el marketing y la gastronomía.</p>
+        <div class="actions">
+          <a class="btn-primary" href="Diseño sin título.pdf" download="Cielo_Romero_Informacion.pdf" data-i18n="download">Descargar información</a>
+          <a class="btn-ghost" href="#contacto" data-i18n="contact.me">Contactar</a>
+        </div>
+        <p class="quote" data-i18n="quote">“El proceso que hoy te pesa, mañana será tu mayor recompensa.”</p>
+      </article>
+
+      <article id="perfil" class="card" aria-labelledby="perfilTitle">
+        <h2 id="perfilTitle" data-i18n="sections.profile">Perfil</h2>
+        <p data-i18n="profile.long">¡Hola! Mi nombre es Cielo Geraldine Romero Peña, tengo 18 años y soy de Cusco. Actualmente estudio Administración en la Universidad Católica San Pablo. Soy una persona creativa, adaptable y empática, cualidades que me permiten relacionarme bien con los demás y afrontar los retos con una actitud positiva. Valoro profundamente la responsabilidad, el respeto y la puntualidad. Me apasionan el arte, especialmente el teatro, y el aprendizaje constante. Los cursos que más disfruto son los de Marketing. He desarrollado habilidades en trabajo en equipo, comunicación efectiva y pensamiento crítico. También he participado en voluntariados apoyando a niños en albergues y en cursos para mujeres adultas.</p>
+      </article>
+
+      <article id="educacion" class="card" aria-labelledby="eduTitle">
+        <h2 id="eduTitle" data-i18n="sections.education">Educación</h2>
+        <div class="edu-item">
+          <h3 data-i18n="edu.current.title">Formación Académica actual</h3>
+          <p class="muted" data-i18n="edu.current.school">Administración de negocios — Universidad Católica San Pablo</p>
+          <a href="https://ucsp.edu.pe/" target="_blank" rel="noopener" data-i18n="edu.current.link">https://ucsp.edu.pe/</a>
+          <span class="tag" data-i18n="edu.current.years">2024 – Presente</span>
+        </div>
+
+        <div class="edu-item">
+          <h3 data-i18n="edu.past.title">Formación hasta 2023</h3>
+          <p class="muted" data-i18n="edu.past.school">Colegio Monteverde — Cusco</p>
+          <a href="https://colegiomonteverde.org/" target="_blank" rel="noopener" data-i18n="edu.past.link">https://colegiomonteverde.org/</a>
+          <span class="tag" data-i18n="edu.past.years">— 2023</span>
+        </div>
+
+        <div class="grid-2">
+          <div>
+            <h4 data-i18n="languages.title">Idiomas</h4>
+            <p class="muted" data-i18n="languages.list">Inglés intermedio · Alemán básico</p>
+          </div>
+          <div>
+            <h4 data-i18n="courses.title">Cursos</h4>
+            <p class="muted" data-i18n="courses.list">Teatro, Inglés, Marketing</p>
+          </div>
+        </div>
+
+        <div class="teachers" aria-label="Profesores">
+          <h4 data-i18n="teachers.title">Profesores</h4>
+          <ul>
+            <li>Carlos Antonio Valdivia Laura — <a href="mailto:cavaldivial@ucsp.edu.pe">cavaldivial@ucsp.edu.pe</a></li>
+            <li>Mario Rommel Arce Espinoza — <a href="mailto:mrarce@ucsp.edu.pe">mrarce@ucsp.edu.pe</a></li>
+            <li>Luisa Graciela Urure Tejada — <a href="mailto:lgurure@ucsp.edu.pe">lgurure@ucsp.edu.pe</a></li>
+            <li>Carlos Renzo Rivera Calcina — <a href="mailto:crrivera@ucsp.edu.pe">crrivera@ucsp.edu.pe</a></li>
+            <li>Raúl Adolfo Urday Dioses — <a href="mailto:raurday@ucsp.edu.pe">raurday@ucsp.edu.pe</a></li>
+            <li>Fabiola Postigo Mendoza — <a href="mailto:fabiola.postigo@ucsp.edu.pe">fabiola.postigo@ucsp.edu.pe</a></li>
+            <li>Maribel Marianela Quiroz Zegarra — <a href="mailto:maribel.quiroz@ucsp.edu.pe">maribel.quiroz@ucsp.edu.pe</a></li>
+            <li>María Belén Bocchio Linares — <a href="mailto:mbocchio@ucsp.edu.pe">mbocchio@ucsp.edu.pe</a></li>
+            <li>Ernesto Cuadros Vargas — <a href="mailto:ecuadros@ucsp.edu.pe">ecuadros@ucsp.edu.pe</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article id="contacto" class="card" aria-labelledby="contactTitle">
+        <h2 id="contactTitle" data-i18n="sections.contact">Contacto</h2>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4 data-i18n="contact.email">Correo</h4>
+            <p class="muted"><a href="mailto:cielo.romero@ucsp.edu.pe">cielo.romero@ucsp.edu.pe</a></p>
+
+            <h4 data-i18n="contact.linkedin">LinkedIn</h4>
+            <p class="muted"><a href="https://www.linkedin.com/in/cielo-geraldine-89a196387" target="_blank" rel="noopener">linkedin.com/in/cielo-geraldine-89a196387</a></p>
+
+            <h4 data-i18n="contact.github">GitHub</h4>
+            <p class="muted"><a href="https://github.com/Cielo-romero" target="_blank" rel="noopener">github.com/Cielo-romero</a></p>
+          </div>
+
+          <div class="contact-card">
+            <h4>Escríbeme</h4>
+            <https://formspree.io/f/xqawabgk>
+            <form id="contactForm" action="https://formspree.io/f/xqawabgk" method="POST">
+              <label class="sr-only" for="name">Nombre</label>
+              <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+              <label class="sr-only" for="email">Correo</label>
+              <input id="email" name="email" type="email" placeholder="tu@correo.com" required>
+              <label class="sr-only" for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+              <button type="submit" class="btn-primary" data-i18n="contact.send">Enviar</button>
+            </form>
+           
+          </div>
+        </div>
+      </article>
+
+      <footer class="site-footer"><small data-i18n="footer">Hecho con ♥ · Diseño personal · Actualizado 2024</small></footer>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
