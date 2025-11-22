@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Cielo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1 class="logo">Cielo</h1>
+    <nav>
+        <a href="#perfil" class="nav-link" data-key="perfil">Perfil</a>
+        <a href="#estudios" class="nav-link" data-key="estudios">Estudios</a>
+        <a href="#proyectos" class="nav-link" data-key="proyectos">Proyectos</a>
+        <a href="#contacto" class="nav-link" data-key="contacto">Contacto</a>
+    </nav>
+    <button id="translateBtn">EN</button>
+</header>
+
+<section class="hero">
+    <h2 data-key="bienvenida">Hola, soy Cielo</h2>
+    <p data-key="subtitulo">Estudiante apasionada por aprender, crear y mejorar.</p>
+</section>
+
+<section id="perfil" class="section">
+    <h2 data-key="perfil">Perfil</h2>
+    <div class="card">
+        <p>
+            Soy una estudiante dedicada con pasión por el aprendizaje continuo y el desarrollo personal. 
+            Me esfuerzo por mantener un equilibrio entre mis estudios y mis intereses personales, buscando siempre dar lo mejor de mí.
+            Me considero una persona creativa, responsable y resiliente.  
+        </p>
+    </div>
+</section>
+
+<section id="estudios" class="section">
+    <h2 data-key="estudios">Estudios</h2>
+    <div class="card">
+        <ul>
+            <li>
+                <a href="https://www.colegiomonteverde.edu.pe/" target="_blank">
+                    Colegio Monteverde Cusco
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="proyectos" class="section">
+    <h2 data-key="proyectos">Proyectos</h2>
+    <div class="card">
+        <p data-key="proyectoTexto">Estoy desarrollando proyectos educativos y personales.</p>
+    </div>
+</section>
+
+<section id="contacto" class="section">
+    <h2 data-key="contacto">Contacto</h2>
+    <div class="card">
+        <p>Email: <a href="mailto:cielo@example.com">cielo@example.com</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Cielo</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
