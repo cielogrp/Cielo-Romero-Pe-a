@@ -27,7 +27,7 @@ const i18n = {
     "brand.subtitle":"Business Administration Student",
     "nav.home":"Home","nav.profile":"Profile","nav.education":"Education","nav.contact":"Contact",
     "download":"Download information","contact.me":"Contact",
-    "greeting":"Hi! I'm Cielo Geraldine Romero Peña",
+    "greeting":"Cielo Geraldine Romero Peña",
     "intro":"I am 18 years old from Cusco. I study Business Administration at Universidad Católica San Pablo. I'm creative, adaptable and empathetic. I love art, theatre, marketing and gastronomy.",
     "quote":"“The process that weighs on you today will be your greatest reward tomorrow.”",
     "sections.profile":"Profile","sections.education":"Education","sections.contact":"Contact",
